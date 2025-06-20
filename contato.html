@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Biblioteca Online</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Biblioteca Online</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="livros.html">Livros</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Fale Conosco</h2>
+        <form id="formContato">
+            <label>Nome:<br><input type="text" id="nome"></label><br>
+            <label>Email:<br><input type="email" id="email"></label><br>
+            <label>Mensagem:<br><textarea id="mensagem"></textarea></label><br>
+            <label>Motivo:<br>
+                <select id="motivo">
+                    <option value="">Selecione</option>
+                    <option>Elogio</option>
+                    <option>Crítica</option>
+                    <option>Sugestão</option>
+                </select>
+            </label><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Biblioteca Online</p>
+    </footer>
+</body>
+</html>
